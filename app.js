@@ -1,5 +1,5 @@
 $(function(){
   $('button').on('click',function(){
-    $('ul').css('color','red');
+    $('ul').children().css('color','red');
   });
 });
